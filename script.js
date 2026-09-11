@@ -1,13 +1,13 @@
 console.log("hello world,");
 
-const myName ="jenny";
+const myName = "jenny";
 let age = 60;
-const number =1234567809;
+const number = 1234567809;
 const address = "gawahon";
 
 console.log('Name: s{myName}');
 console.log('Name: ${myName}');
-console,log('Age: ${age}');
+console, log('Age: ${age}');
 consolke.log('Number: ${number}');
 console.log('Address: ${address}');
 
@@ -27,10 +27,12 @@ function mdas(NUM1, NUM2) {
 
 console.log(mdas(5, 3));
 
+const heading = document.querySelector("h1");
+console.log(heading);
 
+const contactHeading = document.querySelector("#contact h2");
+console.log(contactHeading);
 
-
-
-
-
+const projecttHeading = document.querySelector("#services h2");
+console.log(projectsHeading);
 
