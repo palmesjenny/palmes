@@ -34,5 +34,13 @@ const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
 
 const projecttHeading = document.querySelector("#services h2");
-console.log(projectsHeading);
+console.log(ProjectsHeading);
 
+// text Content
+heading.textContent = "My portfolio";
+contactHeading.textContent = "My project!";
+projecttHeading.textContent = "My projects";
+
+// .style
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
