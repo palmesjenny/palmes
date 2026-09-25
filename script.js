@@ -1,31 +1,35 @@
-console.log("hello world,");
+console.log("Hello world")
 
-const myName = "jenny";
+const Myname = "palmes";
+console.log("name: " + Myname);
 let age = 60;
-const number = 1234567809;
-const address = "gawahon";
+let number = "09123456789";
+console.log("Age: " + age)
+console.log("Number: " + number);
 
-console.log('Name: s{myName}');
-console.log('Name: ${myName}');
-console, log('Age: ${age}');
-consolke.log('Number: ${number}');
-console.log('Address: ${address}');
+const address = "Brgy. x1 gawahon";
+console.log("Address: " + address);
 
 function greet(name) {
-    return 'good morning,${name}';
+
+    return `good morning, ${name}`;
+
 
 }
-console.log(greet(jenny)); // good morning, jenny
+console.log(greet("rene"))
 
-function mdas(num1, num2) {
-    let m = num1 * num2;
-    let d = num1 / num2;
-    let a = num1 - num2;
-
-    return ('values: ${num1} and ${num2}, product ${m}, Quotient: ${d}, sum: ${a}, diff: ${s}');
+function mdas(a, b) {
+    let mul = a * b;
+    let div = a / b;
+    let sum = a + b;
+    let sub = a - b;
+    return (`values: ${a} and ${b}. \n product: ${mul}, \n qoutient: ${div}, \n sum: ${sum},\n difference: ${sub}`);
 }
-
 console.log(mdas(5, 3));
+
+const heading = document.querySelector("h1");
+console.log(heading);
+
 
 const heading = document.querySelector("h1")
 console.log(heading);
@@ -52,3 +56,31 @@ heading.style.backgroundColor = "yellow";
 contactHeading.style.color = "purple";
 serviceHeading.style.color = "purple";
 projectHeading.style.color = "purple";
+
+
+
+//Event Listeners
+const toggleButton = document.querySelector('#switch');
+const body = document.querySelector('body');
+let isOff = false;
+
+toggleButton.addEventListener("click", function () {
+    isOff = !isOff;
+
+    if (isOff) {
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+
+    } else {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+    }
+});
+
+
+
+
+
+
+
+
