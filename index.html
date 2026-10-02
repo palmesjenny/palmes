@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 
@@ -14,6 +15,9 @@
     <button id="switch">Switch</button>
     
     <header>
+         <h1 class="text-3xl font-bold underline text-clifford">
+      Hello world!
+    </h1>
         <nav>
             <span>@palmes</span>
             <ul>
@@ -25,19 +29,19 @@
     </header>
 
     <main>
-        <section id="projects">
+        <section id="projects" class="bg-red-500">
             <h2 class="projects">My PRojects</h2>
             <p>Personal portfolio, payroll system, company website, startup website, and compliance monitoring system.
             </p>
         </section>
 
-        <section id="services">
+        <section id="services" class=" bg-orange-300">
             <h2 class="services">My Services</h2>
             <p>Website Creation, System Creation, AI Automation, Database Management, Project Management, Systems
                 Analyst</p>
         </section>
 
-        <section id="contact">
+        <section id="contact" class=" bg-pink-200">
             <h2 class="contact">Let's build together!</h2>
             <form action="#">
                 <!-- Name -->

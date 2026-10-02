@@ -26,12 +26,8 @@ function mdas(a, b) {
     return (`values: ${a} and ${b}. \n product: ${mul}, \n qoutient: ${div}, \n sum: ${sum},\n difference: ${sub}`);
 }
 console.log(mdas(5, 3));
-
+ 
 const heading = document.querySelector("h1");
-console.log(heading);
-
-
-const heading = document.querySelector("h1")
 console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
